@@ -12,6 +12,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -19,6 +21,7 @@ import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
@@ -70,15 +73,15 @@ fun HomeScreen(
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.logo_color),
+            painter = painterResource(id = R.drawable.logo_no_background),
             contentDescription = null,
             modifier = Modifier
                 .width(150.dp)
-                .height(30.dp)
+                .height(70.dp)
                 .padding(horizontal = MediumPadding1)
         )
 
-        Spacer(modifier = androidx.compose.ui.Modifier.height(MediumPadding1))
+        Spacer(modifier = androidx.compose.ui.Modifier.height(MediumPadding1 - 14.dp))
 
         SearchBar(
             modifier = Modifier.padding(horizontal = MediumPadding1),

@@ -41,7 +41,7 @@ fun OnBoardingPage(
     ){
         Image(
             modifier = Modifier
-                .clip(RoundedCornerShape(bottomEnd = 70.dp, bottomStart = 70.dp))
+                .clip(RoundedCornerShape(bottomEnd = 200.dp, bottomStart = 200.dp))
                 .fillMaxWidth()
                 .fillMaxHeight(fraction = 0.65f),
             painter = painterResource(id = page.image),
