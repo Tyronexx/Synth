@@ -1,5 +1,5 @@
 # Synth
-This is an android app that fetches Games from [News API](https://newsapi.org/v2/) API. It allows one to read news from popular mainstream media such as BBC, Le Monde etc
+This is an android app that fetches Games from [News API](https://newsapi.org/v2/) API. It allows one to read news from popular mainstream media such as BBC, Le Monde etc. Also allows one search for news
 
 ## Onboarding Screens
 <img src="screenshots/onboarding_1.jpg" width="350"/>
@@ -28,3 +28,8 @@ This is an android app that fetches Games from [News API](https://newsapi.org/v2
 
 #### Light Mode / Dark Mode
 <img src="screenshots/Bookmark_Light_Mode.jpg" width="350"/> <img src="screenshots/Bookmark_Dark_Mode.jpg" width="350"/>
+
+## Model-View-ViewModel
+MVVM stands for Model-View-ViewModel, an architectural pattern that effectively decouples the user interface (View) from the underlying business logic (Model). It inserts a mediator layer (ViewModel) to facilitate seamless communication between these components. This architectural approach fosters improved code structure, testability, and ease of maintaining Android applications.
+
+<img src="screenshots/mVVm2.webp"/>
