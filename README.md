@@ -29,3 +29,12 @@ This is an android app that fetches Games from [News API](https://newsapi.org/v2
 
 ## Details Screen
 <img src="screenshots/Details.jpg" width="350"/>
+
+## Bookmarks Screen
+
+#### Light Mode
+<img src="screenshots/Bookmark_Light_Mode.jpg" width="350"/> <img src="screenshots/Bookmark_Dark_Mode.jpg" width="350"/>
+
+#### Dark Mode
+
+[//]: # (<img src="screenshots/Bookmark_Dark_Mode.jpg" width="350"/>)
