@@ -35,7 +35,7 @@ fun BookmarkScreen(
     ) {
 
         Text(
-            text = "Bookmark",
+            text = "Bookmarks",
 //            style = MaterialTheme.typography.displayMedium.copy(fontWeight = FontWeight.Bold),
             style = TextStyle(
 //                color = Color.Black,

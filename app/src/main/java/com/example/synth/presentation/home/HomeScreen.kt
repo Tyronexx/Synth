@@ -105,7 +105,7 @@ fun HomeScreen(
             color = colorResource(id = R.color.placeholder)
         )
 
-        Spacer(modifier = androidx.compose.ui.Modifier.height(MediumPadding1))
+        Spacer(modifier = Modifier.height(MediumPadding1))
 
         ArticlesList(modifier = Modifier.padding(horizontal = MediumPadding1),
             articles = articles,
